@@ -7,7 +7,7 @@ class AppInputDecorationTheme {
   static final InputDecorationTheme appInputDecorationTheme =
       InputDecorationTheme(
         filled: true,
-        fillColor: AppColors.cBgPrimary400,
+        fillColor: AppColors.cBgPrimary,
         contentPadding: EdgeInsets.symmetric(
           horizontal: AppPaddings.kPaddingMedium,
           vertical: AppPaddings.kPaddingButton,
@@ -15,24 +15,24 @@ class AppInputDecorationTheme {
 
         // Border styles
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppPaddings.kDefaultPadding),
+          borderRadius: BorderRadius.circular(AppPaddings.kPaddingMedium),
           borderSide: BorderSide(color: AppColors.cBgPrimary200, width: 1),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppPaddings.kDefaultPadding),
+          borderRadius: BorderRadius.circular(AppPaddings.kPaddingMedium),
           borderSide: BorderSide(color: AppColors.cBgPrimary200, width: 1),
         ),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppPaddings.kDefaultPadding),
-          borderSide: BorderSide(color: AppColors.cPrimary, width: 2),
+          borderRadius: BorderRadius.circular(AppPaddings.kPaddingMedium),
+          borderSide: BorderSide(color: AppColors.cPrimary, width: 1),
         ),
         errorBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppPaddings.kDefaultPadding),
+          borderRadius: BorderRadius.circular(AppPaddings.kPaddingMedium),
           borderSide: BorderSide(color: AppColors.cError, width: 1),
         ),
         focusedErrorBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppPaddings.kDefaultPadding),
-          borderSide: BorderSide(color: AppColors.cError, width: 2),
+          borderRadius: BorderRadius.circular(AppPaddings.kPaddingMedium),
+          borderSide: BorderSide(color: AppColors.cError, width: 1),
         ),
 
         // Text styles
@@ -44,9 +44,11 @@ class AppInputDecorationTheme {
         ),
         hintStyle: AppTextStyles.bodyMediumRegular.copyWith(
           color: AppColors.cBgPrimary200,
+          fontWeight: .bold
         ),
         errorStyle: AppTextStyles.bodySmallRegular.copyWith(
           color: AppColors.cError,
+
         ),
 
         // Icon colors

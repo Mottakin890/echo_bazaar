@@ -15,6 +15,7 @@ class AppColors {
   static final Color cBgPrimary200 = Color(0xFF636363);
   static final Color cBgPrimary100 = Color(0xFFDBDBDB);
   static final Color cBlack = Color(0x00000000);
+  
   ///Alert color shades
   static final Color cSuccess = Color(0xFF29AE29);
   static final Color cWarning = Color(0xFFFFC62A);

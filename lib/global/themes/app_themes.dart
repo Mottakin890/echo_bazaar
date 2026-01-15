@@ -41,6 +41,25 @@ class AppTheme {
     // Color Scheme
     colorScheme: AppColorScheme.appColorScheme,
 
+    //text style
+    textTheme: TextTheme(
+      displayLarge: AppTextStyles.heading1,
+      displayMedium: AppTextStyles.heading2,
+      displaySmall: AppTextStyles.heading3,
+      headlineLarge: AppTextStyles.heading3,
+      headlineMedium: AppTextStyles.heading4,
+      headlineSmall: AppTextStyles.heading5,
+      titleLarge: AppTextStyles.heading6,
+      titleMedium: AppTextStyles.bodyXLargeSemibold,
+      titleSmall: AppTextStyles.bodyLargeSemibold,
+      bodyLarge: AppTextStyles.bodyLargeRegular,
+      bodyMedium: AppTextStyles.bodyMediumRegular,
+      bodySmall: AppTextStyles.bodySmallRegular,
+      labelLarge: AppTextStyles.bodyMediumSemibold,
+      labelMedium: AppTextStyles.bodySmallSemibold,
+      labelSmall: AppTextStyles.bodyXSmallSemibold,
+    ),
+
     // Scaffold Background
     scaffoldBackgroundColor: AppColors.cBgPrimary,
 

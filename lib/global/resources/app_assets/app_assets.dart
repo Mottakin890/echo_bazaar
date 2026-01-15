@@ -46,13 +46,13 @@ class AppAssets {
   static const truck = '$svgAsset/truck.svg';
   static const userFill = '$svgAsset/user-fill.svg';
   static const user = '$svgAsset/user.svg';
+  static const password = '$svgAsset/password.svg';
+  static const google = '$svgAsset/google.svg';
+  static const apple = '$svgAsset/apple.svg';
 
   // PNG Assets
-  // None found in assets/png
-
+  static const echoBazaarLogo = '$pngAsset/echo-bazaar-logo.png';
   // JPG Assets
-  // None found in assets/jpg
 
   // Lottie Assets
-  // None found in assets/lottie
 }
