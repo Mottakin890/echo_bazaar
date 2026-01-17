@@ -3,8 +3,7 @@ import 'package:get/get.dart';
 class AuthController extends GetxController {
   RxBool isPasswordVisible = false.obs;
   RxBool isConfirmPasswordVisible = false.obs;
-
-
+  RxBool isLoading = false.obs;
 
   void togglePassVisibility() {
     isPasswordVisible.value = !isPasswordVisible.value;
@@ -12,7 +11,5 @@ class AuthController extends GetxController {
 
   void toggleConfirmPassVisibility() {
     isConfirmPasswordVisible.value = !isConfirmPasswordVisible.value;
-
   }
-
 }

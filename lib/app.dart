@@ -14,7 +14,6 @@ class EchoBazaarApp extends StatelessWidget {
       initialRoute: AppRoutes.signUp,
       theme: AppTheme.darkTheme,
       getPages: AppPages.pages,
-
     );
   }
 }
